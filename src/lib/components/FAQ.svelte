@@ -7,13 +7,13 @@
   }
 
   const faqs: FAQItem[] = [
-    { question: "Do I have to trust the lead investor with my investment?", answer: "Details about trust and lead investors..." },
-    { question: "How does Echo work?", answer: "Echo works by connecting..." },
-    { question: "I want to share my deals. Can I start a group?", answer: "Yes, you can start a group by..." },
-    { question: "I'm a founder. How do I raise money from Echo?", answer: "Founders can raise money by..." },
-    { question: "Is everyone eligible to use Echo?", answer: "Eligibility depends on..." },
-    { question: "Why do founders raise from Echo groups?", answer: "Founders choose Echo because..." },
-    { question: "Why would someone share their deals with me?", answer: "Sharing deals allows for..." }
+    { question: "How secure is the vault storage?", answer: "Our vault facility features climate-controlled storage, 24/7 security monitoring, and comprehensive insurance coverage. All cards are stored in their original graded cases and tracked with our proprietary inventory system." },
+    { question: "How does instant trading work?", answer: "When you list a vaulted card for sale, buyers can purchase it instantly. Ownership transfers immediately in our system while the card remains secure in the vault. You can cash out or the buyer can keep it vaulted for future trading." },
+    { question: "What grading companies do you accept?", answer: "We accept cards graded by PSA, BGS, CGC, SGC, and HGA. All cards must be in their original tamper-evident cases with valid certification numbers." },
+    { question: "How do I send cards to the vault?", answer: "After creating an account, you'll receive shipping instructions and prepaid labels. Pack your graded cards securely and ship them to our facility. We'll verify and catalog each card upon arrival." },
+    { question: "Can I get my cards back from the vault?", answer: "Absolutely. You can request withdrawal of any cards you own at any time. We'll ship them back to you securely with full insurance coverage." },
+    { question: "What are the fees?", answer: "We charge a small monthly storage fee per card and a transaction fee on sales. There are no fees for depositing cards or listing them for sale. Detailed pricing is available in your account dashboard." },
+    { question: "How do you determine card values?", answer: "Our marketplace uses real-time pricing data from recent sales, current listings, and market trends. Sellers set their own prices, and our system provides suggested pricing based on comparable sales." }
   ];
 
   let openIndex: number | null = null;
